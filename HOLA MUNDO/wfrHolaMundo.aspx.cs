@@ -13,5 +13,12 @@ namespace HOLA_MUNDO
         {
 
         }
+
+        protected void btnSaludar_Click(object sender, EventArgs e)
+        {
+
+            lblSaludar.Visible = true;
+            lblSaludar.Text = $"Hola {txtNombre.Text}, es un gusto saludarte!!";
+        }
     }
 }

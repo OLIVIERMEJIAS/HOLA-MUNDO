@@ -68,16 +68,72 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config" />
+    <Content Include="wfrAbrirCookie.aspx" />
+    <Content Include="wfrAbrirQueryString.aspx" />
+    <Content Include="wfrAbrirSessionApplication.aspx" />
+    <Content Include="wfrCookies.aspx" />
+    <Content Include="wfrQueryString.aspx" />
+    <Content Include="wfrSessionApplication.aspx" />
     <Content Include="wfrHolaMundo.aspx" />
+    <Content Include="wfrViewState.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="wfrAbrirCookie.aspx.cs">
+      <DependentUpon>wfrAbrirCookie.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfrAbrirCookie.aspx.designer.cs">
+      <DependentUpon>wfrAbrirCookie.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfrAbrirQueryString.aspx.cs">
+      <DependentUpon>wfrAbrirQueryString.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfrAbrirQueryString.aspx.designer.cs">
+      <DependentUpon>wfrAbrirQueryString.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfrAbrirSessionApplication.aspx.cs">
+      <DependentUpon>wfrAbrirSessionApplication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfrAbrirSessionApplication.aspx.designer.cs">
+      <DependentUpon>wfrAbrirSessionApplication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfrCookies.aspx.cs">
+      <DependentUpon>wfrCookies.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfrCookies.aspx.designer.cs">
+      <DependentUpon>wfrCookies.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfrQueryString.aspx.cs">
+      <DependentUpon>wfrQueryString.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfrQueryString.aspx.designer.cs">
+      <DependentUpon>wfrQueryString.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfrSessionApplication.aspx.cs">
+      <DependentUpon>wfrSessionApplication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfrSessionApplication.aspx.designer.cs">
+      <DependentUpon>wfrSessionApplication.aspx</DependentUpon>
+    </Compile>
     <Compile Include="wfrHolaMundo.aspx.cs">
       <DependentUpon>wfrHolaMundo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="wfrHolaMundo.aspx.designer.cs">
       <DependentUpon>wfrHolaMundo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfrViewState.aspx.cs">
+      <DependentUpon>wfrViewState.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfrViewState.aspx.designer.cs">
+      <DependentUpon>wfrViewState.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -10,7 +10,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:TextBox ID="txtInfo" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtInfo" runat="server" ViewStateMode="Disabled"></asp:TextBox>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator1" ControlToValidate="txtInfo" runat="server" ErrorMessage="RequiredFieldValidator"></asp:RequiredFieldValidator>
             <asp:Button ID="btnEnviar" runat="server" Text="Button" OnClick="btnEnviar_Click" />
         </div>

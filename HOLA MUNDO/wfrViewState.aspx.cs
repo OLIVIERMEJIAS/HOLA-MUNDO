@@ -22,6 +22,7 @@ namespace HOLA_MUNDO
             contador++;
             lblBoton.Text = contador.ToString();
             ViewState["_cont"] = contador;
+            
         }
     }
 }

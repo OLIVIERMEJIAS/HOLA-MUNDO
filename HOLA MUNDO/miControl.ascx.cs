@@ -26,5 +26,10 @@ namespace HOLA_MUNDO
         {
             return Text;
         }
+
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

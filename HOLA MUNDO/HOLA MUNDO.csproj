@@ -67,24 +67,46 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Global.asax" />
     <Content Include="Web.config" />
+    <Content Include="miControl.ascx" />
     <Content Include="wfrAbrirCookie.aspx" />
+    <Content Include="wfrAbrirHiddenField.aspx" />
     <Content Include="wfrAbrirQueryString.aspx" />
     <Content Include="wfrAbrirSessionApplication.aspx" />
+    <Content Include="wfrControlState.aspx" />
     <Content Include="wfrCookies.aspx" />
+    <Content Include="wfrHiddenField.aspx" />
     <Content Include="wfrQueryString.aspx" />
     <Content Include="wfrSessionApplication.aspx" />
     <Content Include="wfrHolaMundo.aspx" />
     <Content Include="wfrViewState.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="miControl.ascx.cs">
+      <DependentUpon>miControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="miControl.ascx.designer.cs">
+      <DependentUpon>miControl.ascx</DependentUpon>
+    </Compile>
     <Compile Include="wfrAbrirCookie.aspx.cs">
       <DependentUpon>wfrAbrirCookie.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="wfrAbrirCookie.aspx.designer.cs">
       <DependentUpon>wfrAbrirCookie.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfrAbrirHiddenField.aspx.cs">
+      <DependentUpon>wfrAbrirHiddenField.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfrAbrirHiddenField.aspx.designer.cs">
+      <DependentUpon>wfrAbrirHiddenField.aspx</DependentUpon>
     </Compile>
     <Compile Include="wfrAbrirQueryString.aspx.cs">
       <DependentUpon>wfrAbrirQueryString.aspx</DependentUpon>
@@ -100,12 +122,26 @@
     <Compile Include="wfrAbrirSessionApplication.aspx.designer.cs">
       <DependentUpon>wfrAbrirSessionApplication.aspx</DependentUpon>
     </Compile>
+    <Compile Include="wfrControlState.aspx.cs">
+      <DependentUpon>wfrControlState.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfrControlState.aspx.designer.cs">
+      <DependentUpon>wfrControlState.aspx</DependentUpon>
+    </Compile>
     <Compile Include="wfrCookies.aspx.cs">
       <DependentUpon>wfrCookies.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="wfrCookies.aspx.designer.cs">
       <DependentUpon>wfrCookies.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfrHiddenField.aspx.cs">
+      <DependentUpon>wfrHiddenField.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfrHiddenField.aspx.designer.cs">
+      <DependentUpon>wfrHiddenField.aspx</DependentUpon>
     </Compile>
     <Compile Include="wfrQueryString.aspx.cs">
       <DependentUpon>wfrQueryString.aspx</DependentUpon>
